@@ -1,0 +1,13 @@
+
+default:
+  width: &width 530
+  height: &height 300
+
+plot_1:
+  title: 累积净值
+  width: *width
+  height: *height
+  yaxis_label: 累计净值
+  legend:
+    -策略累积净值
+    -基准累积净值
